@@ -1,6 +1,6 @@
 {
     "name": "react-native-super-fast-image",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "🚩 SuperFastImage, Best React Native image component.",
     "keywords": [
         "cache",
