@@ -9,7 +9,7 @@
         "image",
         "priority"
     ],
-    "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+    "publishConfig": { "registry": "https://npm.pkg.github.com/mdmush" },
     "homepage": "https://github.com/mdmush/react-native-super-fast-image#readme",
     "bugs": {
         "url": "https://github.com/mdmush/react-native-super-fast-image/issues"
