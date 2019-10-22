@@ -1,5 +1,5 @@
 #import "RCTConvert+FFFastImage.h"
-#import "FFFastImageSource.h"
+#import "FFSuperFastImageSource.h"
 
 @implementation RCTConvert (FFFastImage)
 
@@ -15,7 +15,7 @@ RCT_ENUM_CONVERTER(FFFCacheControl, (@{
                                        @"cacheOnly": @(FFFCacheControlCacheOnly),
                                        }), FFFCacheControlImmutable, integerValue);
 
-+ (FFFastImageSource *)FFFastImageSource:(id)json {
++ (FFSuperFastImageSource *)FFSuperFastImageSource:(id)json {
     if (!json) {
         return nil;
     }
@@ -43,11 +43,11 @@ RCT_ENUM_CONVERTER(FFFCacheControl, (@{
         }
     }
     
-    FFFastImageSource *imageSource = [[FFFastImageSource alloc] initWithURL:uri priority:priority headers:headers cacheControl:cacheControl];
+    FFSuperFastImageSource *imageSource = [[FFSuperFastImageSource alloc] initWithURL:uri priority:priority headers:headers cacheControl:cacheControl];
     
     return imageSource;
 }
 
-RCT_ARRAY_CONVERTER(FFFastImageSource);
+RCT_ARRAY_CONVERTER(FFSuperFastImageSource);
 
 @end
