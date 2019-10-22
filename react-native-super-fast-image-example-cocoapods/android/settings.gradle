@@ -1,0 +1,3 @@
+rootProject.name = 'ReactNativeFastImageExampleCocoaPods'
+
+include ':app'
