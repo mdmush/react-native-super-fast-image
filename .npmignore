@@ -1,0 +1,27 @@
+# Docs
+docs
+
+# Build
+android/build
+ios/build
+react-native-super-fast-image-*.tgz
+
+# Examples
+ReactNativeSuperSuperFastImageExample
+ReactNativeSuperSuperFastImageExampleServer
+
+# Tests
+__snapshots__
+*.test.js
+
+# Configs
+.babelrc
+.gitignore
+.npmignore
+prettier.config.js
+yarn.lock
+babel.config.js
+jest.config.js
+
+# IDE
+.idea/
